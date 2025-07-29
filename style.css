@@ -1,0 +1,149 @@
+/* General layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e7cece; /* light gray background */
+  color: #090000;
+}
+
+/* Header (Red Banner) */
+.banner {
+  background-color: #002244; /* Strong red */
+  padding: 20px;
+  text-align: center;
+  color: rgb(182, 100, 100);
+}
+
+/* Logo styling with white glow */
+.logo {
+  margin: 0;
+  font-size: 2.5rem;
+  color: rgb(194, 17, 17);
+  text-shadow: 2px 2px 6px white;
+}
+
+/* Updated menu styles */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background-color: #a80000;
+  border-radius: 5px;
+}
+
+
+/* General layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content box */
+.content-box {
+  background-color: rgb(226, 247, 245);
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* opcional */
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+.shiny-text {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 
+    1px 1px 2px white,     /* subtle white highlight */
+    -1px -1px 2px white,   /* more white reflection */
+    0 0 5px white;         /* glowing effect */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para seções de serviços */
+.service {
+  margin-bottom: 40px;
+}
+
+.service img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(14, 13, 13, 0.2);
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  margin: 10px 0 5px;
+  color: #1e2db0;
+}
+
+.service p {
+  margin: 0 auto 20px;
+  max-width: 700px;
+}
+
+/* Contato */
+.contact-info {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.contact-info a {
+  color: #1e2db0;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("imagem/fachada.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Faz com que a imagem fique fixa enquanto rola a página */
+}
+
+
+
+
